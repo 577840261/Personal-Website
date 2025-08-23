@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张鑫 (亍幵) - AI开发者</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">亍幵</div>
+            <ul class="nav-menu">
+                <li><a href="#home" data-text="首页">首页</a></li>
+                <li><a href="#about" data-text="关于">关于</a></li>
+                <li><a href="#projects" data-text="项目">项目</a></li>
+                <li><a href="#contact" data-text="联系">联系</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <canvas id="particles-canvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-avatar">
+                <img src="avatar.jpg" alt="张鑫" class="avatar-img">
+                <div class="avatar-ring"></div>
+            </div>
+            <h1 class="hero-title">
+                <span class="gradient-text typewriter">张鑫</span>
+                <span class="subtitle glitch" data-text="AI开发者 & 高中生">AI开发者 & 高中生</span>
+            </h1>
+            <p class="hero-description">
+                热爱AI编程开发，连续两年参与"AI在未来"公益计划<br>
+                <span class="achievement-badge">🏆 获北京亿元公司青睐，小程序即将上线</span>
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">项目</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label">年经验</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1</span>
+                    <span class="stat-label">商业合作</span>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary magnetic">查看项目</a>
+                <a href="#about" class="btn-secondary magnetic">了解更多</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-orb"></div>
+            <div class="floating-orb"></div>
+            <div class="floating-orb"></div>
+            <div class="neural-network">
+                <div class="node"></div>
+                <div class="node"></div>
+                <div class="node"></div>
+                <div class="connection"></div>
+                <div class="connection"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是张鑫，网名亍幵，一名对AI编程充满热情的高中生。</p>
+                    <p>连续两年参与由亚马逊云科技与光华科技基金会联合主办的"AI在未来"公益计划，在此期间不仅积累了丰富的技术知识，更结识了众多优秀的老师与朋友。</p>
+                    <div class="skills">
+                        <div class="skill-tag">Python</div>
+                        <div class="skill-tag">机器学习</div>
+                        <div class="skill-tag">深度学习</div>
+                        <div class="skill-tag">AWS</div>
+                        <div class="skill-tag">前端开发</div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <img src="profile.jpg" alt="张鑫" class="profile-photo">
+                        <div class="card-glow"></div>
+                        <div class="hologram-effect"></div>
+                        <div class="data-stream"></div>
+                    </div>
+                    <div class="profile-card profile-card-2">
+                        <img src="profile2.jpg" alt="张鑫" class="profile-photo">
+                        <div class="card-glow"></div>
+                        <div class="hologram-effect"></div>
+                        <div class="data-stream"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">成就里程碑</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card featured">
+                    <div class="achievement-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>商业合作</h3>
+                    <p>获得北京市值过亿公司青睐，双方合作开发小程序项目</p>
+                    <div class="achievement-status">即将上线</div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>AI在未来</h3>
+                    <p>连续两年参与亚马逊云科技公益计划</p>
+                    <div class="achievement-status">2年经验</div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>技术成长</h3>
+                    <p>从零基础到获得商业认可的技术实力</p>
+                    <div class="achievement-status">持续进步</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">我的项目</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-tilt onclick="window.open('https://577840261.github.io/badmintonrapidscoreboard/', '_blank')">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-shuttle-space"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>羽毛球快速计分板</h3>
+                        <p>专业的羽毛球比赛计分系统，支持实时计分和比赛记录</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">点击卡片访问</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-tilt onclick="window.open('https://577840261.github.io/badminton-racket-tension-calculator/', '_blank')">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>羽毛球拍张力计算器</h3>
+                        <p>智能计算羽毛球拍最佳张力，提供个性化建议</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>算法</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">点击卡片访问</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-tilt onclick="window.open('https://577840261.github.io/Dad-Joke-Engine/', '_blank')">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-laugh"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>爸爸笑话引擎</h3>
+                        <p>AI驱动的幽默内容生成器，带来欢乐时光</p>
+                        <div class="project-tags">
+                            <span>AI</span>
+                            <span>NLP</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">点击卡片访问</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-tilt onclick="window.open('https://577840261.github.io/LoveWords/', '_blank')">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>情话生成器</h3>
+                        <p>浪漫情话智能生成系统，用技术传递温暖</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>创意</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">点击卡片访问</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-tilt onclick="window.open('https://577840261.github.io/AI-Debate-Competition/', '_blank')">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI辩论竞赛</h3>
+                        <p>人工智能辩论系统，展示AI逻辑推理能力</p>
+                        <div class="project-tags">
+                            <span>AI</span>
+                            <span>逻辑推理</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">点击卡片访问</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <p>如果你对我的项目感兴趣，或者想要交流AI开发经验，欢迎联系我！</p>
+                <div class="contact-buttons">
+                    <a href="#" class="contact-btn magnetic" onclick="alert('微信号：CJ-5201215')">
+                        <i class="fab fa-weixin"></i>
+                        <span>微信：CJ-5201215</span>
+                    </a>
+                    <a href="#" class="contact-btn magnetic">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
